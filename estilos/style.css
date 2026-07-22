@@ -28,10 +28,10 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 800px;
+    width: 1200px;
     height: 800px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
 
     transform: translate(-50%, -50%);
 }
@@ -46,6 +46,78 @@ section#login > div#imagem {
     height: 100%;
 }
 
+section#login > div#imglogin {
+    position: absolute;
+    background: url(/imagens/pexels-cihan-karacayir-774859403-18889041.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 5%;
+    height: 7%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px;
+    
+    top: 20%;
+    left: 25%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
 section#login > div#formulario { 
-    margin-top: 100px;
+    margin-top: 210px;  
+}
+
+div#formulario > h1 { 
+    margin-bottom: 20px;
+}
+
+div#formulario > p {
+    color: rgb(124, 123, 123);
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+div#formulario > form > div#campo {
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    margin-bottom: 2px;
+}
+
+div#formulario > form > div#campo > input {
+    width: 60%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    box-shadow: 0px 0px 1px;
+    padding: 10px;
+}
+
+div#formulario > form > div#continueprincipal > input[type="submit"] { 
+    background-color: rgb(18, 19, 19);
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
+div#formulario > form > .logincontinue > input[type="submit"] { 
+    background-color: white;
+    width: 29%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: lightgray;
+    box-shadow: 0px 0px 1px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+div#formulario > #pfinal {
+    margin-top: 25px;
+}
+
+div#formulario > #pfinal > a {
+    color: black;
 }
