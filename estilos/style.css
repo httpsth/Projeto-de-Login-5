@@ -38,7 +38,7 @@ section#login {
 
 section#login > div#imagem { 
     display: block;
-    background: url(/imagens/pexels-jj-jordan-44924743-9241893.jpg);
+    background: url(../imagens/pexels-jj-jordan-44924743-9241893.jpg);
     background-size: cover;
     background-position: center;
     float: right;
@@ -48,7 +48,7 @@ section#login > div#imagem {
 
 section#login > div#imglogin {
     position: absolute;
-    background: url(/imagens/pexels-cihan-karacayir-774859403-18889041.jpg);
+    background: url(../imagens/pexels-cihan-karacayir-774859403-18889041.jpg);
     background-size: cover;
     background-position: center;
     width: 5%;
